@@ -19,7 +19,7 @@ export function XCommunityFloating() {
       whileHover={{ scale: 1.07, rotate: -2 }}
       whileTap={{ scale: 0.94 }}
       className="group fixed right-5 top-5 z-[300] flex items-center gap-2 rounded-full glass-card px-4 py-2.5 font-display text-xs uppercase tracking-[0.3em] text-white shadow-[0_0_30px_rgba(255,217,61,0.45)] hover:shadow-[0_0_45px_rgba(255,217,61,0.85)]"
-      aria-label="Join the Cereal Cat Wizard community on X"
+      aria-label="Join the Cereal Wizard Cat community on X"
     >
       <span
         className="pointer-events-none absolute -inset-[2px] rounded-full bg-rainbow-shimmer bg-[length:200%_auto] opacity-50 blur-md transition-opacity duration-500 animate-shimmer group-hover:opacity-90"

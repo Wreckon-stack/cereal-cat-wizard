@@ -1,4 +1,4 @@
-# 🧙‍♂️🐱 CEREAL CAT WIZARD
+# 🧙‍♂️🐱 CEREAL WIZARD CAT
 
 A chaotic, magical, absurd meme website. Built with Next.js (App Router) +
 Tailwind CSS + Framer Motion.

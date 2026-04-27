@@ -84,7 +84,7 @@ export default function Hero() {
         >
           CEREAL
           <br />
-          <span className="inline-block">CAT WIZARD</span>
+          <span className="inline-block">WIZARD CAT</span>
         </motion.h1>
 
         <motion.p

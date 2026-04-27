@@ -135,7 +135,7 @@ export default function FinalCTA() {
 
       <footer className="mt-20 text-center">
         <p className="font-display text-xs uppercase tracking-[0.4em] text-white/50">
-          © The Cereal Cat Wizard Temple · Fiber &amp; Whole Grain Approved
+          © The Cereal Wizard Cat Temple · Fiber &amp; Whole Grain Approved
         </p>
       </footer>
     </section>

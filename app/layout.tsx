@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "CEREAL CAT WIZARD — The Prophecy of the Crunch",
+  title: "CEREAL WIZARD CAT — The Prophecy of the Crunch",
   description:
     "Enter the Cereal Dimension. A chaotic, magical, absurd meme prophecy controlled by the wizard cat.",
   openGraph: {
-    title: "CEREAL CAT WIZARD",
+    title: "CEREAL WIZARD CAT",
     description: "THE PROPHECY OF THE CRUNCH",
   },
 };
