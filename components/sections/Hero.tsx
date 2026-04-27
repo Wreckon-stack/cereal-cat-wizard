@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import MagicButton from "../ui/MagicButton";
 import CerealLoop from "../ui/CerealLoop";
 import { playClick } from "../effects/SoundSystem";
+import ContractAddress from "../ui/ContractAddress";
 
 export default function Hero() {
   const onEnter = () => {
@@ -108,6 +109,15 @@ export default function Hero() {
           <MagicButton variant="secondary" size="lg" icon={<span>🥣</span>} onClick={onSummon}>
             Summon the Bowl
           </MagicButton>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.1, duration: 0.8 }}
+          className="mt-12 w-full"
+        >
+          <ContractAddress />
         </motion.div>
 
         <motion.div

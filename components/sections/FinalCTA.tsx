@@ -7,6 +7,7 @@ import CerealLoop, { randomLoopColor } from "../ui/CerealLoop";
 import { useChaos } from "../effects/ChaosFX";
 import { playClick } from "../effects/SoundSystem";
 import { XCommunityButton } from "../ui/XCommunityButton";
+import ContractAddress from "../ui/ContractAddress";
 
 type Burst = {
   id: number;
@@ -124,7 +125,11 @@ export default function FinalCTA() {
             (side effects: enlightenment, crumbs)
           </p>
 
-          <div className="mt-12 flex flex-col items-center gap-3">
+          <div className="mt-12 w-full">
+            <ContractAddress />
+          </div>
+
+          <div className="mt-10 flex flex-col items-center gap-3">
             <span className="font-display text-xs uppercase tracking-[0.5em] text-white/70">
               The Wizard Posts on X
             </span>
